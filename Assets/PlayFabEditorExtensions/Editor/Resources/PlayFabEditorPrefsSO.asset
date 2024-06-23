@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: PlayFabEditorPrefsSO
   m_EditorClassIdentifier: 
   DevAccountEmail: babornat@fbmi.cvut.cz
-  DevAccountToken: 
-  SelectedStudio: 
-  SdkPath: 
+  DevAccountToken: sowm7xxpyhts5ituyod4gc37t9pe6tea6ecuaeyhrcd3o3xynh7p3xhii14wo4k1iqb8jhwzwafbdgoy4ma8jomnrday9tgratwj5kzjp93axrcj9mqr5xd4jkhsagyjwstkqce9xkd3gxdbsikdjhmb3jddrx6e8mqn87a6g9jzbx9f6198oxerr63g5y98tb1j5a8f
+  SelectedStudio: My Game Studio
+  SdkPath: Assets/PlayFabSDK
   EdExPath: 
   LocalCloudScriptPath: 
-  PanelIsShown: 1
-  curMainMenuIdx: 0
+  PanelIsShown: 0
+  curMainMenuIdx: 1
   curSubMenuIdx: 0

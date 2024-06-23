@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -377,6 +378,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a828998e6296c404e84f058f85d0afe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1374908816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -468,6 +481,10 @@ PrefabInstance:
     - target: {fileID: 2331447307007282280, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331447308050575502, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+      propertyPath: m_text
+      value: Log in
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
