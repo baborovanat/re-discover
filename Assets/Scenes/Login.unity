@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &148332769 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2331447307052683755, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+  m_PrefabInstance: {fileID: 1374908816}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,7 +307,6 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -378,16 +388,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
+--- !u!114 &1212964938 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2331447308139199766, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+  m_PrefabInstance: {fileID: 1374908816}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a828998e6296c404e84f058f85d0afe6, type: 3}
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1374908816
@@ -482,6 +491,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2331447307747329821, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1964198552}
+    - target: {fileID: 2331447307747329821, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RegisterButton
+      objectReference: {fileID: 0}
     - target: {fileID: 2331447308050575502, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_text
       value: Log in
@@ -496,6 +513,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2331447307007282280, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
   m_PrefabInstance: {fileID: 1374908816}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1917862109 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2331447307602846628, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+  m_PrefabInstance: {fileID: 1374908816}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964198547
 GameObject:
   m_ObjectHideFlags: 0
@@ -508,6 +536,7 @@ GameObject:
   - component: {fileID: 1964198550}
   - component: {fileID: 1964198549}
   - component: {fileID: 1964198548}
+  - component: {fileID: 1964198552}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -598,6 +627,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1964198552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964198547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a828998e6296c404e84f058f85d0afe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messageText: {fileID: 1917862109}
+  emailInput: {fileID: 1212964938}
+  passwordInput: {fileID: 148332769}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
