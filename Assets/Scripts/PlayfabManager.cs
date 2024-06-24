@@ -42,8 +42,14 @@ public class PlayfabManager : MonoBehaviour
     }
 
     public void LoginButton()
-    { 
-    
+    {
+        var request = new LoginWithEmailAddressRequest
+        {
+            Email = emailInput.text,
+            Password = passwordInput.text
+        };
+        PlayFabClientAPI.LoginWithEmailAddress(request, OnLoginSuccess, OnError);
+
     }
 
     public void ResetPasswordButton()
@@ -55,12 +61,20 @@ public class PlayfabManager : MonoBehaviour
     { 
     
     }
+    void OnLoginSuccess(LoginResult result)
+    {
+        messageText.text = "Logged in!";
+        Debug.Log("Successful log in");
+        GetCharacters();
+    }
+    public void GetCharacters()
+    {
+
+    }
 
 
-
-
-        // Start is called before the first frame update
-        void Start()
+    // Start is called before the first frame update
+    void Start()
     {
        
     }
