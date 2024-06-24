@@ -285,15 +285,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307007282281, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.67058825
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307007282281, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.36862746
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307007282281, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_Color.r
-      value: 0.66981125
+      value: 0.20784314
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307499217761, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_text
@@ -323,19 +323,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307747329822, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.69803923
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307747329822, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0.972549
       objectReference: {fileID: 0}
     - target: {fileID: 2331447307747329822, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_Color.r
-      value: 0.67058825
+      value: 0.24313726
       objectReference: {fileID: 0}
     - target: {fileID: 2331447308035720223, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 930
+      value: 920
       objectReference: {fileID: 0}
     - target: {fileID: 2331447308035720223, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_SizeDelta.y
@@ -580,6 +580,8 @@ GameObject:
   - component: {fileID: 1806601412}
   - component: {fileID: 1806601411}
   - component: {fileID: 1806601410}
+  - component: {fileID: 1806601414}
+  - component: {fileID: 1806601413}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -661,6 +663,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1806601413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806601409}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f426e072dbb64e64fb7a7fcbc72bdbd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1806601414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806601409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f426e072dbb64e64fb7a7fcbc72bdbd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
