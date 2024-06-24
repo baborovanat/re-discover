@@ -5,6 +5,7 @@ using PlayFab;
 using PlayFab.ClientModels;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayfabManager : MonoBehaviour
 
@@ -13,6 +14,12 @@ public class PlayfabManager : MonoBehaviour
     public Text messageText;
     public TMP_InputField emailInput;
     public TMP_InputField passwordInput;
+
+    private IEnumerator WaitForSceneLoad()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("Upload");
+    }
 
 
     public void RegisterButton()
@@ -34,6 +41,7 @@ public class PlayfabManager : MonoBehaviour
     void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
         messageText.text = "Registered and logged in";
+        StartCoroutine(WaitForSceneLoad());
     }
     void OnError(PlayFabError error)
     {
@@ -66,6 +74,7 @@ public class PlayfabManager : MonoBehaviour
         messageText.text = "Logged in!";
         Debug.Log("Successful log in");
         GetCharacters();
+        StartCoroutine(WaitForSceneLoad());
     }
     public void GetCharacters()
     {
