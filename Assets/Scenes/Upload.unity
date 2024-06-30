@@ -223,7 +223,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620096569}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ebc337b4ae0aa094bbcd9767e4f60a31, type: 3}
   m_Name: 
@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 1191601714}
   - component: {fileID: 1191601713}
   - component: {fileID: 1191601717}
+  - component: {fileID: 1191601718}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -365,6 +366,21 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   permission: 0
+--- !u!114 &1191601718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191601712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc337b4ae0aa094bbcd9767e4f60a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 2800000, guid: 4fbd6ce955903ba42997fe2eae6af4cd, type: 3}
+  finaldownloaded: {fileID: 0}
+  Downloadedcontent: 
 --- !u!1001 &1271945915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -500,6 +516,18 @@ PrefabInstance:
     - target: {fileID: 2331447308560957412, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -667.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331447308560957413, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1191601718}
+    - target: {fileID: 2331447308560957413, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Upload
+      objectReference: {fileID: 0}
+    - target: {fileID: 2331447308560957413, guid: 2b2a87ee5b0f1e440974227c3f2c5f0f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Test, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:

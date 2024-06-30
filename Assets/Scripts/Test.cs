@@ -12,12 +12,14 @@ public class Test : MonoBehaviour
     public byte[] Downloadedcontent;
 
     // Update is called once per frame
+    public void Upload()
+    {
+        StartCoroutine("Test004_FilesCreate");
+
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.U))
-        {
-            StartCoroutine("Test004_FilesCreate");
-        }
+       
         if (Input.GetKeyDown(KeyCode.D))
         {
             StartCoroutine("Test006_FilesDownload");
