@@ -40,7 +40,7 @@ public class PlayfabManager : MonoBehaviour
     }
     void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
-      //  messageText.text = "Registered and logged in";
+      messageText.text = "Registered and logged in\n By registering you agree to the Playfab terms and conditions \n To exercise your rights according to the GDPR\n, contact the administrator at this address: admin@rediscover.com ";
         StartCoroutine(WaitForSceneLoad());
     }
     void OnError(PlayFabError error)
