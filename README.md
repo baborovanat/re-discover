@@ -1,6 +1,6 @@
 🔍 Re-Discover VR 🔍
 
-Re-Discover VR is a virtual reality application designed to help users relive memories through immersive multimedia experiences. Users can upload and view personal photos, videos, and audio in a VR environment. The app ensures privacy by restricting content access to the original user only.
+Re-Discover VR is a virtual reality application designed to help users relive memories through immersive multimedia experiences. Users can upload and view personal photos, videos, and audio in a VR environment. The app ensures privacy by restricting content access to the original user only. For more info, view the uploaded pdf.
 
 Features
 
@@ -16,6 +16,8 @@ Features
 - Media Upload: Multimedia content is uploaded to Google Drive for storage.
 - VR Environment: Users interact with their uploaded content in a virtual space.
 - Restricted Access: Each user can only view their own uploaded content.
+![image](https://github.com/user-attachments/assets/d8247eb3-e375-4329-97cf-e5ee0097e11c)
+![image](https://github.com/user-attachments/assets/f47053b1-003b-44ae-9c91-9a97e5af6ba1)
 
 ➡️ Setup
 
