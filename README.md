@@ -1,4 +1,4 @@
-☁️ Re-Discover VR ☁️
+🔍 Re-Discover VR 🔍
 
 Re-Discover VR is a virtual reality application designed to help users relive memories through immersive multimedia experiences. Users can upload and view personal photos, videos, and audio in a VR environment. The app ensures privacy by restricting content access to the original user only.
 
